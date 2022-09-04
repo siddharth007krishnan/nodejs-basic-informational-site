@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-basic-informational-site",
+  "version": "1.0.0",
+  "description": "A basic node js informational site for the odin project course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "watch": "nodemon --inspect index.js"
+  },
+  "keywords": [
+    "odin",
+    "basic",
+    "nodejs",
+    "static",
+    "expressjs"
+  ],
+  "author": "Siddharth Krishnan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.2",
+    "nodemon": "^2.0.19"
+  }
+}
